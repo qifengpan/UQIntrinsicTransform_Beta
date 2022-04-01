@@ -1,0 +1,1672 @@
+Error: There appear to be unused SgLabelSymbol IR nodes on the astLabelSymbolStack 
+parsing is done
+setting is done
+max count: 1
+searching is done
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/list_variable.f90 line :36
+statement: set_value_seed%dist_id = seed%dist_id(index_list)
+with following Varible constain UQ: dist_id dist_id 
+dist_id with type 0 1 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/list_variable.f90 line :37
+statement: set_value_seed%cases = seed%cases(index_list)
+with following Varible constain UQ: cases cases 
+cases with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/list_variable.f90 line :38
+statement: set_value_seed%date = seed%date(index_list)
+with following Varible constain UQ: date date 
+date with type 0 1 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/list_variable.f90 line :46
+statement: set_value_iol%dist_id = iol%seed_distid(index_list)
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/list_variable.f90 line :47
+statement: set_value_iol%date = iol%seed_date(index_list)
+with following Varible constain UQ: date 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/list_variable.f90 line :48
+statement: set_value_iol%cases = iol%seed_cases(index_list)
+with following Varible constain UQ: cases 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :67
+statement: INDEX(I) = I
+with following Varible constain UQ: INDEX 
+INDEX with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :88
+statement: L = 1
+with following Varible constain UQ: L 
+L with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :89
+statement: R = N
+with following Varible constain UQ: R N 
+R with type 1 
+N with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :99
+statement: I = L
+with following Varible constain UQ: L 
+L with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :100
+statement: J = R
+with following Varible constain UQ: J R 
+J with type 1 
+R with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :109
+statement: P =(L + R) / 2
+with following Varible constain UQ: P L R 
+P with type 1 
+L with type 1 
+R with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :110
+statement: INDEXP = INDEX(P)
+with following Varible constain UQ: INDEXP INDEX P 
+INDEXP with type 1 
+INDEX with type 1 
+P with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :111
+statement: DATAP = DATA(INDEXP)
+with following Varible constain UQ: DATAP DATA INDEXP 
+DATAP with type 1 
+DATA with type 1 
+INDEXP with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :114
+statement: INDEX(P) = INDEX(L)
+with following Varible constain UQ: INDEX P INDEX L 
+INDEX with type 1 
+P with type 1 
+INDEX with type 1 
+L with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :115
+statement: INDEX(L) = INDEXP
+with following Varible constain UQ: INDEX L INDEXP 
+INDEX with type 1 
+L with type 1 
+INDEXP with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :116
+statement: INDEXP = INDEX(P)
+with following Varible constain UQ: INDEXP INDEX P 
+INDEXP with type 1 
+INDEX with type 1 
+P with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :117
+statement: DATAP = DATA(INDEXP)
+with following Varible constain UQ: DATAP DATA INDEXP 
+DATAP with type 1 
+DATA with type 1 
+INDEXP with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :122
+statement: INDEX(P) = INDEX(L)
+with following Varible constain UQ: INDEX P INDEX L 
+INDEX with type 1 
+P with type 1 
+INDEX with type 1 
+L with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :123
+statement: INDEX(L) = INDEX(R)
+with following Varible constain UQ: INDEX L INDEX R 
+INDEX with type 1 
+L with type 1 
+INDEX with type 1 
+R with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :125
+statement: INDEX(P) = INDEX(R)
+with following Varible constain UQ: INDEX P INDEX R 
+INDEX with type 1 
+P with type 1 
+INDEX with type 1 
+R with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :127
+statement: INDEX(R) = INDEXP
+with following Varible constain UQ: INDEX R INDEXP 
+INDEX with type 1 
+R with type 1 
+INDEXP with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :128
+statement: INDEXP = INDEX(P)
+with following Varible constain UQ: INDEXP INDEX P 
+INDEXP with type 1 
+INDEX with type 1 
+P with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :129
+statement: DATAP = DATA(INDEXP)
+with following Varible constain UQ: DATAP DATA INDEXP 
+DATAP with type 1 
+DATA with type 1 
+INDEXP with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :159
+statement: J = J - 1
+with following Varible constain UQ: J J 
+J with type 1 
+J with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :168
+statement: INDEXT = INDEX(I)
+with following Varible constain UQ: INDEXT INDEX 
+INDEXT with type 1 
+INDEX with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :169
+statement: INDEX(I) = INDEX(J)
+with following Varible constain UQ: INDEX INDEX J 
+INDEX with type 1 
+INDEX with type 1 
+J with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :170
+statement: INDEX(J) = INDEXT
+with following Varible constain UQ: INDEX J INDEXT 
+INDEX with type 1 
+J with type 1 
+INDEXT with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :185
+statement: LSTK(ISTK) = J + 1
+with following Varible constain UQ: LSTK J 
+LSTK with type 1 
+J with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :186
+statement: RSTK(ISTK) = R
+with following Varible constain UQ: RSTK R 
+RSTK with type 1 
+R with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :187
+statement: R = I - 1
+with following Varible constain UQ: R 
+R with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :190
+statement: LSTK(ISTK) = L
+with following Varible constain UQ: LSTK L 
+LSTK with type 1 
+L with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :191
+statement: RSTK(ISTK) = I - 1
+with following Varible constain UQ: RSTK 
+RSTK with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :192
+statement: L = J + 1
+with following Varible constain UQ: L J 
+L with type 1 
+J with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :194
+statement: L = J + 1
+with following Varible constain UQ: L J 
+L with type 1 
+J with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :196
+statement: R = I - 1
+with following Varible constain UQ: R 
+R with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :200
+statement: L = LSTK(ISTK)
+with following Varible constain UQ: L LSTK 
+L with type 1 
+LSTK with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :201
+statement: R = RSTK(ISTK)
+with following Varible constain UQ: R RSTK 
+R with type 1 
+RSTK with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :215
+statement: INDEXP = INDEX(I)
+with following Varible constain UQ: INDEXP INDEX 
+INDEXP with type 1 
+INDEX with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :216
+statement: DATAP = DATA(INDEXP)
+with following Varible constain UQ: DATAP DATA INDEXP 
+DATAP with type 1 
+DATA with type 1 
+INDEXP with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :217
+statement: P = I - 1
+with following Varible constain UQ: P 
+P with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :219
+statement: INDEX(P + 1) = INDEX(P)
+with following Varible constain UQ: INDEX P INDEX P 
+INDEX with type 1 
+P with type 1 
+INDEX with type 1 
+P with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :220
+statement: P = P - 1
+with following Varible constain UQ: P P 
+P with type 1 
+P with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/quicksort_non_recur.f line :224
+statement: INDEX(P + 1) = INDEXP
+with following Varible constain UQ: INDEX P INDEXP 
+INDEX with type 1 
+P with type 1 
+INDEXP with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :120
+statement: index = 0
+with following Varible constain UQ: index 
+index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :121
+statement: size_in = size(array_in)
+with following Varible constain UQ: size_in array_in 
+size_in with type 1 
+array_in with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :122
+statement: i = 1
+with following Varible constain UQ: i 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :124
+statement: index = index + 1
+with following Varible constain UQ: index index 
+index with type 0 1 
+index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :129
+statement: index = 0
+with following Varible constain UQ: index 
+index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :130
+statement: i = 1
+with following Varible constain UQ: i 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :132
+statement: index = index + 1
+with following Varible constain UQ: index index 
+index with type 0 1 
+index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :133
+statement: array_index(index) = i
+with following Varible constain UQ: array_index index i 
+array_index with type 0 1 
+index with type 0 1 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :209
+statement: index = 0
+with following Varible constain UQ: index 
+index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :210
+statement: size_in = size(array_in)
+with following Varible constain UQ: size_in array_in 
+size_in with type 0 1 
+array_in with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :211
+statement: size_tar = size(array_tar)
+with following Varible constain UQ: size_tar array_tar 
+size_tar with type 1 
+array_tar with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :212
+statement: i = 1
+with following Varible constain UQ: i 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :215
+statement: index = index + 1
+with following Varible constain UQ: index index 
+index with type 0 1 
+index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :221
+statement: index = 0
+with following Varible constain UQ: index 
+index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :222
+statement: i = 1
+with following Varible constain UQ: i 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :225
+statement: index = index + 1
+with following Varible constain UQ: index index 
+index with type 0 1 
+index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :226
+statement: array_index(index) = i
+with following Varible constain UQ: array_index index i 
+array_index with type 0 1 
+index with type 0 1 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :317
+statement: size_x = size(x)
+with following Varible constain UQ: size_x x 
+size_x with type 0 1 
+x with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :320
+statement: output = x
+with following Varible constain UQ: output x 
+output with type 0 1 
+x with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :322
+statement: logval(i) = - 5 + i * inc_log
+with following Varible constain UQ: logval 
+logval with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :329
+statement: changex = x(2:size_x) - x(1:(size_x - 1))
+with following Varible constain UQ: changex x size_x x size_x 
+changex with type 0 1 
+x with type 0 1 
+size_x with type 0 1 
+x with type 0 1 
+size_x with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :330
+statement: changex_index = get_index_not(changex,0.0)
+with following Varible constain UQ: changex_index changex 
+changex_index with type 0 1 
+changex with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :332
+statement: size_xnchange = size(changex_index)
+with following Varible constain UQ: size_xnchange changex_index 
+size_xnchange with type 0 1 
+changex_index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :335
+statement: start = x(changex_index(i))
+with following Varible constain UQ: start x changex_index 
+start with type 0 1 
+x with type 0 1 
+changex_index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :336
+statement: final = x(changex_index(i) + steps + 1)
+with following Varible constain UQ: final x changex_index 
+final with type 0 1 
+x with type 0 1 
+changex_index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :338
+statement: logval = 1 - 1 /(1 + exp(-logval))
+with following Varible constain UQ: logval logval 
+logval with type 0 1 
+logval with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :339
+statement: logval = start * logval + final *(1 - logval)
+with following Varible constain UQ: logval start logval final logval 
+logval with type 0 1 
+start with type 0 1 
+logval with type 0 1 
+final with type 0 1 
+logval with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :340
+statement: output((changex_index(i) + 1):(changex_index(i) + steps)) = logval
+with following Varible constain UQ: output changex_index changex_index logval 
+output with type 0 1 
+changex_index with type 0 1 
+changex_index with type 0 1 
+logval with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :346
+statement: start = x(changex_index(i))
+with following Varible constain UQ: start x changex_index 
+start with type 0 1 
+x with type 0 1 
+changex_index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :347
+statement: final = x(changex_index(i) + steps + 1)
+with following Varible constain UQ: final x changex_index 
+final with type 0 1 
+x with type 0 1 
+changex_index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :349
+statement: res_temp = start * linval + final *(1 - linval)
+with following Varible constain UQ: res_temp start final 
+res_temp with type 0 1 
+start with type 0 1 
+final with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :350
+statement: output((changex_index(i) + 1):(changex_index(i) + steps)) = res_temp
+with following Varible constain UQ: output changex_index changex_index res_temp 
+output with type 0 1 
+changex_index with type 0 1 
+changex_index with type 0 1 
+res_temp with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :362
+statement: time_start = Date2Unixtime(start_date)
+with following Varible constain UQ: time_start start_date 
+time_start with type 1 
+start_date with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :363
+statement: time_end = Date2Unixtime(end_date)
+with following Varible constain UQ: time_end end_date 
+time_end with type 1 
+end_date with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :365
+statement: size_out =(time_end - time_start) / 86400 + 1
+with following Varible constain UQ: size_out time_end time_start 
+size_out with type 1 
+time_end with type 1 
+time_start with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :370
+statement: output(i) = Unixtime2Date(time_start +(i - 1) * 86400)
+with following Varible constain UQ: output time_start 
+output with type 1 
+time_start with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :434
+statement: output((cur_pos + 1):(cur_pos + times(i))) = tar(i)
+with following Varible constain UQ: output tar 
+output with type 1 
+tar with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :451
+statement: temp_input = input_array
+with following Varible constain UQ: temp_input input_array 
+temp_input with type 1 
+input_array with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :454
+statement: temp = temp_input(i)
+with following Varible constain UQ: temp temp_input 
+temp with type 1 
+temp_input with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :456
+statement: pos = int(ran * size(temp_input))
+with following Varible constain UQ: pos temp_input 
+pos with type 1 
+temp_input with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :459
+statement: pos = int(ran * size(temp_input))
+with following Varible constain UQ: pos temp_input 
+pos with type 1 
+temp_input with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :461
+statement: temp_input(i) = temp_input(pos)
+with following Varible constain UQ: temp_input temp_input pos 
+temp_input with type 1 
+temp_input with type 1 
+pos with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :462
+statement: temp_input(pos) = temp
+with following Varible constain UQ: temp_input pos temp 
+temp_input with type 1 
+pos with type 1 
+temp with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :464
+statement: sample_seq = temp_input(1:sample_N)
+with following Varible constain UQ: sample_seq temp_input sample_N 
+sample_seq with type 1 
+temp_input with type 1 
+sample_N with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :547
+statement: temp_index = get_index(array_in,tar)
+with following Varible constain UQ: temp_index array_in tar 
+temp_index with type 0 1 
+array_in with type 1 
+tar with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :548
+statement: output = array_minus(array_in,temp_index)
+with following Varible constain UQ: output array_in temp_index 
+output with type 1 
+array_in with type 1 
+temp_index with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :583
+statement: output(count_i) = i
+with following Varible constain UQ: output 
+output with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :599
+statement: array_temp = array_in
+with following Varible constain UQ: array_temp array_in 
+array_temp with type 1 
+array_in with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :601
+statement: array_temp(minus) = 0
+with following Varible constain UQ: array_temp minus 
+array_temp with type 1 
+minus with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :602
+statement: output = pack(array_temp,array_temp .NE. 0)
+with following Varible constain UQ: output array_temp array_temp 
+output with type 1 
+array_temp with type 1 
+array_temp with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :681
+statement: size1 = size(array1)
+with following Varible constain UQ: size1 array1 
+size1 with type 1 
+array1 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :682
+statement: size2 = size(array2)
+with following Varible constain UQ: size2 array2 
+size2 with type 1 
+array2 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :684
+statement: CALL SORTRX(size1,array1,idx1)
+with following Varible constain UQ: size1 array1 idx1 
+size1 with type 1 
+array1 with type 1 
+idx1 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :685
+statement: CALL SORTRX(size2,array2,idx2)
+with following Varible constain UQ: size2 array2 idx2 
+size2 with type 1 
+array2 with type 1 
+idx2 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :687
+statement: temp1 = array1(idx1)
+with following Varible constain UQ: temp1 array1 idx1 
+temp1 with type 1 
+array1 with type 1 
+idx1 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :688
+statement: temp2 = array2(idx2)
+with following Varible constain UQ: temp2 array2 idx2 
+temp2 with type 1 
+array2 with type 1 
+idx2 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :689
+statement: i = 1
+with following Varible constain UQ: i 
+i with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :695
+statement: i = i + 1
+with following Varible constain UQ: i i 
+i with type 1 
+i with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :700
+statement: i = i + 1
+with following Varible constain UQ: i i 
+i with type 1 
+i with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :705
+statement: i = 1
+with following Varible constain UQ: i 
+i with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :711
+statement: i = i + 1
+with following Varible constain UQ: i i 
+i with type 1 
+i with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :716
+statement: output(total) = temp1(i)
+with following Varible constain UQ: output temp1 i 
+output with type 1 
+temp1 with type 1 
+i with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :717
+statement: i = i + 1
+with following Varible constain UQ: i i 
+i with type 1 
+i with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :731
+statement: temp1 = get_index(array1,cond1)
+with following Varible constain UQ: temp1 array1 cond1 
+temp1 with type 1 
+array1 with type 1 
+cond1 with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :733
+statement: temp1 = find_lessthan(array1,cond1)
+with following Varible constain UQ: temp1 array1 cond1 
+temp1 with type 1 
+array1 with type 1 
+cond1 with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :735
+statement: temp1 = find_greatthan(array1,cond1)
+with following Varible constain UQ: temp1 array1 cond1 
+temp1 with type 1 
+array1 with type 1 
+cond1 with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :737
+statement: temp1 = get_index_not_single_integer(array1,cond1)
+with following Varible constain UQ: temp1 array1 cond1 
+temp1 with type 1 
+array1 with type 1 
+cond1 with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :741
+statement: temp2 = get_index(array2,cond2)
+with following Varible constain UQ: temp2 cond2 
+temp2 with type 1 
+cond2 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :743
+statement: temp2 = find_lessthan(array2,cond2)
+with following Varible constain UQ: temp2 cond2 
+temp2 with type 1 
+cond2 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :745
+statement: temp2 = find_greatthan(array2,cond2)
+with following Varible constain UQ: temp2 cond2 
+temp2 with type 1 
+cond2 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :747
+statement: temp2 = get_index_not_single_integer(array2,cond2)
+with following Varible constain UQ: temp2 cond2 
+temp2 with type 1 
+cond2 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :751
+statement: output = find_and(temp1,temp2)
+with following Varible constain UQ: output temp1 temp2 
+output with type 1 
+temp1 with type 1 
+temp2 with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :860
+statement: total = 0
+with following Varible constain UQ: total 
+total with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :861
+statement: i = 1
+with following Varible constain UQ: i 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :863
+statement: total = total + 1
+with following Varible constain UQ: total total 
+total with type 0 1 
+total with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :868
+statement: total = 0
+with following Varible constain UQ: total 
+total with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :869
+statement: i = 1
+with following Varible constain UQ: i 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :871
+statement: total = total + 1
+with following Varible constain UQ: total total 
+total with type 0 1 
+total with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :872
+statement: output(total) = i
+with following Varible constain UQ: output total i 
+output with type 0 1 
+total with type 0 1 
+i with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :896
+statement: output(total) = i
+with following Varible constain UQ: output 
+output with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :926
+statement: Cyear = Date(1:4)
+with following Varible constain UQ: Cyear Date 
+Cyear with type 1 
+Date with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :927
+statement: Cmonth = Date(6:7)
+with following Varible constain UQ: Cmonth Date 
+Cmonth with type 1 
+Date with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :928
+statement: Cday = Date(9:10)
+with following Varible constain UQ: Cday Date 
+Cday with type 1 
+Date with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :939
+statement: iy = year
+with following Varible constain UQ: iy year 
+iy with type 1 
+year with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :940
+statement: im = month
+with following Varible constain UQ: im month 
+im with type 1 
+month with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :942
+statement: iy = year - 1
+with following Varible constain UQ: iy year 
+iy with type 1 
+year with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :943
+statement: im = month + 12
+with following Varible constain UQ: im month 
+im with type 1 
+month with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :946
+statement: a = int(iy / 100)
+with following Varible constain UQ: a iy 
+a with type 1 
+iy with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :947
+statement: a = 2 - a + int(a / 4)
+with following Varible constain UQ: a a a 
+a with type 1 
+a with type 1 
+a with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :948
+statement: JD = int(365.25 *(iy + 4716)) + int(30.60001 *(im + 1)) + day + a - 1524.5
+with following Varible constain UQ: JD iy im day a 
+JD with type 1 
+iy with type 1 
+im with type 1 
+day with type 1 
+a with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :949
+statement: Unixtime = int((JD - 2440587.5) * 86400)
+with following Varible constain UQ: Unixtime JD 
+Unixtime with type 1 
+JD with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :964
+statement: udays = int(Unixtime / 86400)
+with following Varible constain UQ: udays Unixtime 
+udays with type 1 
+Unixtime with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :965
+statement: mday = udays + 40587
+with following Varible constain UQ: mday udays 
+mday with type 1 
+udays with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :966
+statement: year = 1858 + int((mday + 321.51) / 365.25)
+with following Varible constain UQ: year mday 
+year with type 1 
+mday with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :967
+statement: rday = aint((mod(mday + 262.25,365.25))) + 0.5
+with following Varible constain UQ: rday mday 
+rday with type 1 
+mday with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :968
+statement: month = 1 + int((mod(rday / 30.6 + 2.0,12.0)))
+with following Varible constain UQ: month rday 
+month with type 1 
+rday with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :969
+statement: day = 1 + int((mod(rday,30.6)))
+with following Varible constain UQ: day rday 
+day with type 1 
+rday with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :977
+statement: Cmonth = "0" // trim((adjustl(Cmonth)))
+with following Varible constain UQ: Cmonth Cmonth 
+Cmonth with type 1 
+Cmonth with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :984
+statement: Cday = "0" // trim((adjustl(Cday)))
+with following Varible constain UQ: Cday Cday 
+Cday with type 1 
+Cday with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :986
+statement: Date = trim(Cyear) // "-" // trim(Cmonth) // "-" // trim(Cday)
+with following Varible constain UQ: Date Cyear Cmonth Cday 
+Date with type 1 
+Cyear with type 1 
+Cmonth with type 1 
+Cday with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :996
+statement: time = Date2Unixtime(Date)
+with following Varible constain UQ: time 
+time with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :997
+statement: time = time + 86400 * days
+with following Varible constain UQ: time time days 
+time with type 1 
+time with type 1 
+days with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/fun_sup.f90 line :998
+statement: res = Unixtime2Date(time)
+with following Varible constain UQ: res time 
+res with type 1 
+time with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :158
+statement: cont_dur = 2
+with following Varible constain UQ: cont_dur 
+cont_dur with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :159
+statement: ill_dur = 8
+with following Varible constain UQ: ill_dur 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :199
+statement: seed_temp = add_date(seed_date,cont_dur)
+with following Varible constain UQ: seed_temp cont_dur 
+seed_temp with type 1 
+cont_dur with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :200
+statement: seed_inf_cont_seq = generate_seq((add_date(seed_date,1)),seed_temp)
+with following Varible constain UQ: seed_inf_cont_seq seed_temp 
+seed_inf_cont_seq with type 1 
+seed_temp with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :204
+statement: seed_inf_ncont_seq = generate_seq((add_date(seed_date,cont_dur + 1)),(add_date(seed_date,inf_dur + cont_dur)))
+with following Varible constain UQ: seed_inf_ncont_seq cont_dur cont_dur 
+seed_inf_ncont_seq with type 1 
+cont_dur with type 1 
+cont_dur with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :299
+statement: icu_risk(1:(size(targert_icu_risk_index))) = iol%transpr_icu_risk(targert_icu_risk_index)
+with following Varible constain UQ: icu_risk 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :300
+statement: icu_risk(1:(size(targert_icu_risk_index))) = 1 -(1 - icu_risk(1:(size(targert_icu_risk_index)))) **(1 / real(ill_dur))
+with following Varible constain UQ: icu_risk icu_risk ill_dur 
+icu_risk with type 0 
+icu_risk with type 0 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :301
+statement: icu_risk((size(targert_icu_risk_index) + 1):(2 * size(targert_icu_risk_index))) = icu_risk(1:(size(targert_icu_risk_index)))
+with following Varible constain UQ: icu_risk icu_risk 
+icu_risk with type 0 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :308
+statement: icu_risk(1:2) = iol%transpr_icu_risk(targert_icu_risk_index)
+with following Varible constain UQ: icu_risk 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :309
+statement: icu_risk(1:2) = 1 -(1 - icu_risk(1:2)) **(1 / ill_dur)
+with following Varible constain UQ: icu_risk icu_risk ill_dur 
+icu_risk with type 0 
+icu_risk with type 0 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :310
+statement: icu_risk((size(targert_icu_risk_index) + 1):(2 * size(targert_icu_risk_index))) = icu_risk(2)
+with following Varible constain UQ: icu_risk icu_risk 
+icu_risk with type 0 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :311
+statement: icu_risk(1:(size(targert_icu_risk_index))) = icu_risk(1)
+with following Varible constain UQ: icu_risk icu_risk 
+icu_risk with type 0 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :322
+statement: icu_risk_list%age(((i - 1) * size(icu_risk) + 1):(i * size(icu_risk))) =(/iol%transpr_age_gr(targert_icu_risk_index),iol%transpr_age_gr(targert_icu_risk_index)/)
+with following Varible constain UQ: icu_risk icu_risk 
+icu_risk with type 0 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :324
+statement: icu_risk_list%sex(((i - 1) * size(icu_risk) + 1):((i - 1) * size(icu_risk) + 19)) = 'm'
+with following Varible constain UQ: icu_risk icu_risk 
+icu_risk with type 0 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :325
+statement: icu_risk_list%sex(((i - 1) * size(icu_risk) + 19):(i * size(icu_risk))) = 'f'
+with following Varible constain UQ: icu_risk icu_risk 
+icu_risk with type 0 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :326
+statement: icu_risk_list%risk(((i - 1) * size(icu_risk) + 1):(i * size(icu_risk))) = icu_risk * icu_per_day(i)
+with following Varible constain UQ: risk icu_risk icu_risk icu_risk 
+risk with type 0 
+icu_risk with type 0 
+icu_risk with type 0 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :327
+statement: icu_risk_list%dur(((i - 1) * size(icu_risk) + 1):(i * size(icu_risk))) = i
+with following Varible constain UQ: dur icu_risk icu_risk 
+dur with type 0 
+icu_risk with type 0 
+icu_risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :335
+statement: surv_ill =(/iol%transpr_surv_ill(targert_icu_risk_index),iol%transpr_surv_ill(targert_icu_risk_index)/)
+with following Varible constain UQ: surv_ill 
+surv_ill with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :337
+statement: surv_ill = surv_ill **(1 / real(ill_dur))
+with following Varible constain UQ: surv_ill surv_ill ill_dur 
+surv_ill with type 0 
+surv_ill with type 0 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :344
+statement: surv_ill(1:2) = iol%transpr_icu_risk(targert_icu_risk_index)
+with following Varible constain UQ: surv_ill 
+surv_ill with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :345
+statement: surv_ill(1:2) = 1 -(1 - surv_ill(1:2)) **(1 / real(ill_dur))
+with following Varible constain UQ: surv_ill surv_ill ill_dur 
+surv_ill with type 0 
+surv_ill with type 0 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :346
+statement: surv_ill((size(targert_icu_risk_index) + 1):(2 * size(targert_icu_risk_index))) = surv_ill(2)
+with following Varible constain UQ: surv_ill surv_ill 
+surv_ill with type 0 
+surv_ill with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :347
+statement: surv_ill(1:(size(targert_icu_risk_index))) = surv_ill(1)
+with following Varible constain UQ: surv_ill surv_ill 
+surv_ill with type 0 
+surv_ill with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :357
+statement: surv_ill_list%risk = surv_ill
+with following Varible constain UQ: risk surv_ill 
+risk with type 0 
+surv_ill with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :364
+statement: surv_icu =(/iol%transpr_surv_ill(targert_icu_risk_index),iol%transpr_surv_ill(targert_icu_risk_index)/)
+with following Varible constain UQ: surv_icu 
+surv_icu with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :366
+statement: surv_icu = surv_ill **(1 / real(ill_dur))
+with following Varible constain UQ: surv_icu surv_ill ill_dur 
+surv_icu with type 0 
+surv_ill with type 0 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :373
+statement: surv_icu(1:2) = iol%transpr_icu_risk(targert_icu_risk_index)
+with following Varible constain UQ: surv_icu 
+surv_icu with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :374
+statement: surv_icu(1:2) = 1 -(1 - surv_icu(1:2)) **(1 / real(ill_dur))
+with following Varible constain UQ: surv_icu surv_icu ill_dur 
+surv_icu with type 0 
+surv_icu with type 0 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :375
+statement: surv_icu((size(targert_icu_risk_index) + 1):(2 * size(targert_icu_risk_index))) = surv_icu(2)
+with following Varible constain UQ: surv_icu surv_icu 
+surv_icu with type 0 
+surv_icu with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :376
+statement: surv_icu(1:(size(targert_icu_risk_index))) = surv_icu(1)
+with following Varible constain UQ: surv_icu surv_icu 
+surv_icu with type 0 
+surv_icu with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :386
+statement: surv_icu_list%risk = surv_icu
+with following Varible constain UQ: risk surv_icu 
+risk with type 0 
+surv_icu with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :453
+statement: sim%d(:) = 1
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :486
+statement: seed_ill%dist_id = iol%seed_distid(temp)
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :487
+statement: seed_ill%date = iol%seed_date(temp)
+with following Varible constain UQ: date 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :488
+statement: seed_ill%cases = iol%seed_cases(temp)
+with following Varible constain UQ: cases 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :490
+statement: temp = get_index(iol%seed_date,seed_inf_cont_seq)
+with following Varible constain UQ: seed_inf_cont_seq 
+seed_inf_cont_seq with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :491
+statement: seed_inf_cont%dist_id = iol%seed_distid(temp)
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :492
+statement: seed_inf_cont%date = iol%seed_date(temp)
+with following Varible constain UQ: date 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :493
+statement: seed_inf_cont%cases = iol%seed_cases(temp)
+with following Varible constain UQ: cases 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :495
+statement: temp = get_index(iol%seed_date,seed_inf_ncont_seq)
+with following Varible constain UQ: seed_inf_ncont_seq 
+seed_inf_ncont_seq with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :496
+statement: seed_inf_ncont%dist_id = iol%seed_distid(temp)
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :497
+statement: seed_inf_ncont%date = iol%seed_date(temp)
+with following Varible constain UQ: date 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :498
+statement: seed_inf_ncont%cases = iol%seed_cases(temp)
+with following Varible constain UQ: cases 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :514
+statement: seed_ill_dur(i) =(temp_int - Date2Unixtime(seed_ill%date(i))) / 86400
+with following Varible constain UQ: seed_ill_dur date 
+seed_ill_dur with type 0 1 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :520
+statement: temp = condition_and(seed_ill_dur,ill_dur,"l",seed_ill%cases,temp_int,"g")
+with following Varible constain UQ: seed_ill_dur ill_dur cases 
+seed_ill_dur with type 0 1 
+ill_dur with type 0 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :522
+statement: seed_ill%dist_id = seed_ill%dist_id(temp)
+with following Varible constain UQ: dist_id dist_id 
+dist_id with type 0 1 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :523
+statement: seed_ill%date = seed_ill%date(temp)
+with following Varible constain UQ: date date 
+date with type 0 1 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :524
+statement: seed_ill%cases = seed_ill%cases(temp)
+with following Varible constain UQ: cases cases 
+cases with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :531
+statement: seed_inf_cont_dur(i) =(temp_int - Date2Unixtime(seed_inf_cont%date(i))) / 86400 + cont_dur + 1
+with following Varible constain UQ: seed_inf_cont_dur date cont_dur 
+seed_inf_cont_dur with type 0 1 
+date with type 0 1 
+cont_dur with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :548
+statement: seed_inf_cont%dist_id = seed_inf_cont%dist_id(temp(1:temp_int))
+with following Varible constain UQ: dist_id dist_id 
+dist_id with type 0 1 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :549
+statement: seed_inf_cont%date = seed_inf_cont%date(temp(1:temp_int))
+with following Varible constain UQ: date date 
+date with type 0 1 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :550
+statement: seed_inf_cont%cases = seed_inf_cont%cases(temp(1:temp_int))
+with following Varible constain UQ: cases cases 
+cases with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :561
+statement: seed_inf_ncont_dur(i) =(temp_int - Date2Unixtime(seed_inf_ncont%date(i))) / 86400 + inf_dur + cont_dur + 1
+with following Varible constain UQ: seed_inf_ncont_dur date cont_dur 
+seed_inf_ncont_dur with type 0 1 
+date with type 0 1 
+cont_dur with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :574
+statement: seed_inf_ncont%dist_id = seed_inf_ncont%dist_id(temp(1:temp_int))
+with following Varible constain UQ: dist_id dist_id 
+dist_id with type 0 1 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :575
+statement: seed_inf_ncont%date = seed_inf_ncont%date(temp(1:temp_int))
+with following Varible constain UQ: date date 
+date with type 0 1 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :576
+statement: seed_inf_ncont%cases = seed_inf_ncont%cases(temp(1:temp_int))
+with following Varible constain UQ: cases cases 
+cases with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :594
+statement: temp = get_index(seed_ill%dist_id,county)
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :595
+statement: il_d = rep(seed_ill_dur(temp),seed_ill%cases(temp))
+with following Varible constain UQ: il_d seed_ill_dur cases 
+il_d with type 1 
+seed_ill_dur with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :596
+statement: inf_ill = sum(seed_ill%cases(temp))
+with following Varible constain UQ: inf_ill cases 
+inf_ill with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :598
+statement: temp = get_index(seed_inf_cont%dist_id,county)
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :599
+statement: inf_c_d = rep(seed_inf_cont_dur(temp),seed_inf_cont%cases(temp))
+with following Varible constain UQ: inf_c_d seed_inf_cont_dur cases 
+inf_c_d with type 1 
+seed_inf_cont_dur with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :601
+statement: inf_cont = sum(seed_inf_cont%cases(temp))
+with following Varible constain UQ: inf_cont cases 
+inf_cont with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :603
+statement: temp = get_index(seed_inf_ncont%dist_id,county)
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :604
+statement: inf_nc_d = rep(seed_inf_ncont_dur(temp),seed_inf_ncont%cases(temp))
+with following Varible constain UQ: inf_nc_d seed_inf_ncont_dur cases 
+inf_nc_d with type 1 
+seed_inf_ncont_dur with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :605
+statement: inf_ncont = sum(seed_inf_ncont%cases(temp))
+with following Varible constain UQ: inf_ncont cases 
+inf_ncont with type 0 1 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :622
+statement: rownumbers_left = rownumbers
+with following Varible constain UQ: rownumbers_left 
+rownumbers_left with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :625
+statement: rownumbers_ill = sample(rownumbers_left,inf_ill)
+with following Varible constain UQ: rownumbers_ill rownumbers_left inf_ill 
+rownumbers_ill with type 1 
+rownumbers_left with type 0 1 
+inf_ill with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :626
+statement: rownumbers_left = rownumbers_left((inf_ill + 1):(size(rownumbers)))
+with following Varible constain UQ: rownumbers_left rownumbers_left inf_ill 
+rownumbers_left with type 0 1 
+rownumbers_left with type 0 1 
+inf_ill with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :627
+statement: sim%t1(rownumbers_ill) = ill_contag
+with following Varible constain UQ: rownumbers_ill 
+rownumbers_ill with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :628
+statement: sim%d(rownumbers_ill) = il_d
+with following Varible constain UQ: d rownumbers_ill il_d 
+d with type 1 
+rownumbers_ill with type 1 
+il_d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :632
+statement: rownumbers_cont = sample(rownumbers_left,inf_cont)
+with following Varible constain UQ: rownumbers_cont rownumbers_left inf_cont 
+rownumbers_cont with type 1 
+rownumbers_left with type 0 1 
+inf_cont with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :633
+statement: rownumbers_left = rownumbers_left((inf_cont + 1):(size(rownumbers_left)))
+with following Varible constain UQ: rownumbers_left rownumbers_left inf_cont rownumbers_left 
+rownumbers_left with type 0 1 
+rownumbers_left with type 0 1 
+inf_cont with type 0 1 
+rownumbers_left with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :634
+statement: sim%t1(rownumbers_cont) = inf_contag
+with following Varible constain UQ: rownumbers_cont 
+rownumbers_cont with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :635
+statement: sim%d(rownumbers_cont) = inf_c_d
+with following Varible constain UQ: d rownumbers_cont inf_c_d 
+d with type 1 
+rownumbers_cont with type 1 
+inf_c_d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :639
+statement: rownumbers_ncont = sample(rownumbers_left,inf_ncont)
+with following Varible constain UQ: rownumbers_ncont rownumbers_left inf_ncont 
+rownumbers_ncont with type 1 
+rownumbers_left with type 0 1 
+inf_ncont with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :640
+statement: rownumbers_left = rownumbers_left((inf_ncont + 1):(size(rownumbers_left)))
+with following Varible constain UQ: rownumbers_left rownumbers_left inf_ncont rownumbers_left 
+rownumbers_left with type 0 1 
+rownumbers_left with type 0 1 
+inf_ncont with type 0 1 
+rownumbers_left with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :641
+statement: sim%t1(rownumbers_ncont) = inf_noncon
+with following Varible constain UQ: rownumbers_ncont 
+rownumbers_ncont with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :642
+statement: sim%d(rownumbers_ncont) = inf_nc_d
+with following Varible constain UQ: d rownumbers_ncont inf_nc_d 
+d with type 1 
+rownumbers_ncont with type 1 
+inf_nc_d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :646
+statement: rownumbers_dea = sample(rownumbers_left,inf_dth)
+with following Varible constain UQ: rownumbers_dea rownumbers_left 
+rownumbers_dea with type 1 
+rownumbers_left with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :647
+statement: sim%t1(rownumbers_dea) = dead
+with following Varible constain UQ: rownumbers_dea 
+rownumbers_dea with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :656
+statement: R0_daily = R0_force * lhc(2,it_ss) / real(cont_dur + real(ill_dur) * less_contagious) +(1 - R0_force) * lhc(2,it_ss) / real(cont_dur + ill_dur)
+with following Varible constain UQ: R0_daily cont_dur ill_dur cont_dur ill_dur 
+R0_daily with type 0 1 
+cont_dur with type 1 
+ill_dur with type 0 
+cont_dur with type 1 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :661
+statement: R0matrix = R0_daily
+with following Varible constain UQ: R0matrix R0_daily 
+R0matrix with type 0 1 
+R0_daily with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :675
+statement: R0matrix(:,gettime(j)) = R0matrix(:,gettime(j)) * getchange
+with following Varible constain UQ: R0matrix R0matrix 
+R0matrix with type 0 1 
+R0matrix with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :682
+statement: R0matrix(i,:) = smoothing_change(R0matrix(i,:),R0delay_days,R0delay_type)
+with following Varible constain UQ: R0matrix R0matrix 
+R0matrix with type 0 1 
+R0matrix with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :729
+statement: at_risk = sum(susceptible)
+with following Varible constain UQ: at_risk 
+at_risk with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :753
+statement: exp_infect = contagious * R0matrix(:,timestep - 1)
+with following Varible constain UQ: exp_infect R0matrix 
+exp_infect with type 0 1 
+R0matrix with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :765
+statement: exp_infect = exp_infect * lhc(5,it_ss)
+with following Varible constain UQ: exp_infect exp_infect 
+exp_infect with type 0 1 
+exp_infect with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :790
+statement: exp_infect = within_weight * exp_infect + between_weight * matmul(exp_infect,connect)
+with following Varible constain UQ: exp_infect exp_infect exp_infect 
+exp_infect with type 0 1 
+exp_infect with type 0 1 
+exp_infect with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :809
+statement: risk = exp_infect / real(denominator)
+with following Varible constain UQ: risk exp_infect 
+risk with type 0 1 
+exp_infect with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :811
+statement: risk = 0
+with following Varible constain UQ: risk 
+risk with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :814
+statement: risk = 1
+with following Varible constain UQ: risk 
+risk with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :819
+statement: risk = lhc(6,it_ss) * risk +(1 - lhc(6,it_ss)) * matmul(risk,connect)
+with following Varible constain UQ: risk risk risk 
+risk with type 0 1 
+risk with type 0 1 
+risk with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :822
+statement: prob = risk(temp)
+with following Varible constain UQ: prob risk 
+prob with type 0 1 
+risk with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :886
+statement: target_inf%cases = iol%seed_cases(temp)
+with following Varible constain UQ: cases 
+cases with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :887
+statement: target_inf%dist_id = iol%seed_distid(temp)
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :888
+statement: target_inf%date = iol%seed_date(temp)
+with following Varible constain UQ: date 
+date with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :897
+statement: temp = get_index(target_inf%dist_id,counties_index(i))
+with following Varible constain UQ: dist_id 
+dist_id with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :982
+statement: tmp%d(temp) = 1
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :986
+statement: tmp%d(temp) = tmp%d(temp) + 1
+with following Varible constain UQ: d d 
+d with type 1 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1002
+statement: tmp%d(temp) = tmp%d(temp) + 1
+with following Varible constain UQ: d d 
+d with type 1 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1013
+statement: temp = condition_and(tmp%t1,inf_noncon,"e",tmp%d,inf_dur,"l")
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1018
+statement: tmp%d(temp) = tmp%d(temp) + 1
+with following Varible constain UQ: d d 
+d with type 1 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1022
+statement: temp = condition_and(tmp%t1,inf_noncon,"e",tmp%d,inf_dur - 1,"g")
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1027
+statement: tmp%d(temp) = 1
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1032
+statement: temp = condition_and(tmp%t1,inf_contag,"e",tmp%d,cont_dur,"l")
+with following Varible constain UQ: d cont_dur 
+d with type 1 
+cont_dur with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1037
+statement: tmp%d(temp) = tmp%d(temp) + 1
+with following Varible constain UQ: d d 
+d with type 1 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1041
+statement: temp = condition_and(tmp%t1,inf_contag,"e",tmp%d,cont_dur - 1,"g")
+with following Varible constain UQ: d cont_dur 
+d with type 1 
+cont_dur with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1047
+statement: tmp%d(temp) = 1
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1054
+statement: at_risk = size(temp)
+with following Varible constain UQ: at_risk 
+at_risk with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1060
+statement: surv_ill_i = surv_ill(temp)
+with following Varible constain UQ: surv_ill_i surv_ill 
+surv_ill_i with type 0 
+surv_ill with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1102
+statement: at_risk = size(temp)
+with following Varible constain UQ: at_risk 
+at_risk with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1113
+statement: age_sex_dur = tmp%age(temp) // tmp%sex(temp) // temp_character
+with following Varible constain UQ: age_sex_dur temp_character 
+age_sex_dur with type 0 1 
+temp_character with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1123
+statement: icu_risk_label = icu_risk_list%age // icu_risk_list%sex // temp_character
+with following Varible constain UQ: icu_risk_label temp_character 
+icu_risk_label with type 0 1 
+temp_character with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1125
+statement: temp1 = get_index(icu_risk_label,age_sex_dur)
+with following Varible constain UQ: icu_risk_label age_sex_dur 
+icu_risk_label with type 0 1 
+age_sex_dur with type 0 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1126
+statement: icu_risk_i = icu_risk_list%risk(temp1)
+with following Varible constain UQ: icu_risk_i risk 
+icu_risk_i with type 0 1 
+risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1145
+statement: tmp%d(temp) = 1
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1154
+statement: temp = condition_and(tmp%t1,ill_contag,"e",tmp%d,ill_dur,"l")
+with following Varible constain UQ: d ill_dur 
+d with type 1 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1162
+statement: tmp%d(temp) = tmp%d(temp) + 1
+with following Varible constain UQ: d d 
+d with type 1 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1166
+statement: temp = condition_and(tmp%t1,ill_contag,"e",tmp%d,ill_dur - 1,"g")
+with following Varible constain UQ: d ill_dur 
+d with type 1 
+ill_dur with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1173
+statement: tmp%d(temp) = 1
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1178
+statement: at_risk = size(temp)
+with following Varible constain UQ: at_risk 
+at_risk with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1185
+statement: surv_icu_i = surv_icu_list%risk(temp1)
+with following Varible constain UQ: surv_icu_i risk 
+surv_icu_i with type 0 
+risk with type 0 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1206
+statement: temp = condition_and(tmp%t1,ill_ICU,"e",tmp%d,(int(lhc(3,it_ss))),"l")
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1213
+statement: tmp%d(temp) = tmp%d(temp) + 1
+with following Varible constain UQ: d d 
+d with type 1 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1217
+statement: temp = condition_and(tmp%t1,ill_ICU,"e",tmp%d,int(lhc(3,it_ss)) - 1,"g")
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1224
+statement: tmp%d(temp) = 1
+with following Varible constain UQ: d 
+d with type 1 
+
+in file: /home/qifeng/Rose_demo/UQ_Searching_Beta/CosMic_Seq_Old/mod_kernel.f90 line :1233
+statement: sim%d(temp) = tmp%d(temp)
+with following Varible constain UQ: d d 
+d with type 1 
+d with type 1 
+
+reading is done
+Skip modification 

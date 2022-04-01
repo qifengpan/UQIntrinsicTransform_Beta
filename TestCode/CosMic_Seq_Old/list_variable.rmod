@@ -1,0 +1,40 @@
+
+! =================================================================================== 
+! <<Automatically generated for Rose Fortran Separate Compilation, DO NOT MODIFY IT>> 
+! =================================================================================== 
+
+MODULE list_variable
+USE MOD_GLOBAL_VAR
+IMPLICIT NONE
+TYPE , PUBLIC :: seeds
+INTEGER, DIMENSION(:), ALLOCATABLE :: dist_id
+INTEGER, DIMENSION(:), ALLOCATABLE :: cases
+CHARACTER(len=10), DIMENSION(:), ALLOCATABLE :: date
+END TYPE seeds
+INTERFACE set_value
+MODULE PROCEDURE set_value_seed
+MODULE PROCEDURE set_value_iol
+END INTERFACE 
+CONTAINS
+ FUNCTION init_seed(num)
+IMPLICIT NONE
+TYPE ( seeds )  :: init_seed
+INTEGER :: num
+END  FUNCTION 
+
+ FUNCTION set_value_seed(seed,index_list)
+IMPLICIT NONE
+TYPE ( seeds )  :: set_value_seed
+TYPE ( seeds )  :: seed
+INTEGER, DIMENSION(:) :: index_list
+END  FUNCTION 
+
+ FUNCTION set_value_iol(iol,index_list)
+IMPLICIT NONE
+TYPE ( iols )  :: iol
+TYPE ( seeds )  :: set_value_iol
+INTEGER, DIMENSION(:) :: index_list
+END  FUNCTION 
+
+END MODULE list_variable
+

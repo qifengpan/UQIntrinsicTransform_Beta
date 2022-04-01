@@ -1,0 +1,25 @@
+
+! =================================================================================== 
+! <<Automatically generated for Rose Fortran Separate Compilation, DO NOT MODIFY IT>> 
+! =================================================================================== 
+
+MODULE MOD_data_prepro
+CONTAINS
+SUBROUTINE data_prepro(iol,Counties_type,counties_integer)
+USE MOD_GLOBAL_VAR
+USE support_fun
+IMPLICIT NONE
+TYPE ( iols )  :: iol
+INTEGER, DIMENSION(:), ALLOCATABLE :: counties_integer
+INTEGER, DIMENSION(:), ALLOCATABLE :: all_counties
+INTEGER, DIMENSION(:), ALLOCATABLE :: state_code_index
+INTEGER, DIMENSION(:), ALLOCATABLE :: counties_index
+INTEGER, DIMENSION(:), ALLOCATABLE :: temp_index
+REAL, DIMENSION(:,:), ALLOCATABLE :: connect_total
+REAL, DIMENSION(:,:), ALLOCATABLE :: connect_work
+CHARACTER(len=*) :: Counties_type
+INTEGER :: i
+END SUBROUTINE 
+
+END MODULE MOD_data_prepro
+

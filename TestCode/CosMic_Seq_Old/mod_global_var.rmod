@@ -1,0 +1,69 @@
+
+! =================================================================================== 
+! <<Automatically generated for Rose Fortran Separate Compilation, DO NOT MODIFY IT>> 
+! =================================================================================== 
+
+MODULE MOD_GLOBAL_VAR
+IMPLICIT NONE
+public 
+save 
+TYPE  :: iols
+CHARACTER(len=15), DIMENSION(:), ALLOCATABLE :: transpr_age_gr
+CHARACTER(len=15), DIMENSION(:), ALLOCATABLE :: transpr_sex
+REAL, DIMENSION(:), ALLOCATABLE :: transpr_surv_ill
+REAL, DIMENSION(:), ALLOCATABLE :: transpr_icu_risk
+REAL, DIMENSION(:), ALLOCATABLE :: transpr_surv_icu
+CHARACTER(len=15), DIMENSION(5) :: titel
+INTEGER, DIMENSION(:), ALLOCATABLE :: pop_distid
+CHARACTER(len=10), DIMENSION(:), ALLOCATABLE :: pop_date
+CHARACTER(len=1), DIMENSION(:), ALLOCATABLE :: pop_sex
+CHARACTER(len=2), DIMENSION(:), ALLOCATABLE :: pop_age
+INTEGER, DIMENSION(:), ALLOCATABLE :: pop_total
+INTEGER, DIMENSION(:), ALLOCATABLE :: seed_distid
+CHARACTER(len=10), DIMENSION(:), ALLOCATABLE :: seed_date
+INTEGER, DIMENSION(:), ALLOCATABLE :: seed_cases
+CHARACTER(len=15), DIMENSION(3) :: seed_titel
+INTEGER, DIMENSION(:), ALLOCATABLE :: death_distid
+CHARACTER(len=10), DIMENSION(:), ALLOCATABLE :: death_date
+INTEGER, DIMENSION(:), ALLOCATABLE :: death_cases
+INTEGER, DIMENSION(401) :: connect_total_distid
+CHARACTER(len=15), DIMENSION(401) :: connect_total_name
+REAL, DIMENSION(401,401) :: connect_total
+CHARACTER(len=15) :: connect_titel
+INTEGER, DIMENSION(401) :: connect_work_distid
+CHARACTER(len=15), DIMENSION(401) :: connect_work_name
+REAL, DIMENSION(401,401) :: connect_work
+INTEGER, DIMENSION(:), ALLOCATABLE :: states_code
+INTEGER, DIMENSION(:), ALLOCATABLE :: states_inhabitant
+CHARACTER(len=15), DIMENSION(:), ALLOCATABLE :: states_shortcut
+CHARACTER(len=30), DIMENSION(:), ALLOCATABLE :: states_name
+CHARACTER(len=15), DIMENSION(4) :: state_titel
+INTEGER, DIMENSION(:), ALLOCATABLE :: counties_dist_id
+CHARACTER(len=50), DIMENSION(:), ALLOCATABLE :: counties_name
+REAL, DIMENSION(:), ALLOCATABLE :: counties_area
+INTEGER, DIMENSION(:), ALLOCATABLE :: counties_inhabitants
+END TYPE iols
+TYPE  :: ps_scalar
+REAL :: param
+CHARACTER(len=10) :: var_type
+CHARACTER(len=10) :: name
+END TYPE ps_scalar
+TYPE  :: ps_vector
+REAL, DIMENSION(:,:), ALLOCATABLE :: param
+CHARACTER(len=20), DIMENSION(:,:), ALLOCATABLE :: param_char
+CHARACTER(len=10) :: var_type
+END TYPE ps_vector
+TYPE  :: pspaces
+TYPE ( ps_scalar ) , DIMENSION(8) :: Ps_scalar_list
+TYPE ( ps_vector )  :: ROeffect_ps
+END TYPE pspaces
+CHARACTER(len=15) :: exec_procedure
+LOGICAL :: restrict
+CHARACTER(len=35), DIMENSION(:), ALLOCATABLE :: counties
+INTEGER :: time_n
+CHARACTER(len=10) :: seed_date
+LOGICAL :: import_R0_matrix
+INTEGER :: lhc_samples
+CHARACTER(len=100) :: export_name
+END MODULE MOD_GLOBAL_VAR
+

@@ -1,0 +1,2 @@
+COVID19_Spatial_Microsimulation_for_Germany ill_dur
+COVID19_Spatial_Microsimulation_for_Germany cont_dur

@@ -1,0 +1,33 @@
+
+! =================================================================================== 
+! <<Automatically generated for Rose Fortran Separate Compilation, DO NOT MODIFY IT>> 
+! =================================================================================== 
+
+MODULE qsort_c_module
+IMPLICIT NONE
+public QsortC
+public BinarySearch
+private Partition
+CONTAINS
+RECURSIVE SUBROUTINE QsortC(A)
+INTEGER, DIMENSION(:), INTENT(INOUT) :: A
+INTEGER :: iq
+END SUBROUTINE QsortC
+
+SUBROUTINE Partition(A,marker)
+INTEGER, DIMENSION(:), INTENT(INOUT) :: A
+INTEGER, INTENT(OUT) :: marker
+INTEGER :: i, j
+INTEGER :: temp
+INTEGER :: x
+END SUBROUTINE Partition
+
+INTEGER FUNCTION BinarySearch(elem,array)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: array
+INTEGER :: elem, size_in
+INTEGER :: L, R, M
+END  FUNCTION 
+
+END MODULE qsort_c_module
+

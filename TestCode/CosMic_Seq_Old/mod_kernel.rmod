@@ -1,0 +1,109 @@
+
+! =================================================================================== 
+! <<Automatically generated for Rose Fortran Separate Compilation, DO NOT MODIFY IT>> 
+! =================================================================================== 
+
+MODULE mod_kernel
+CONTAINS
+SUBROUTINE COVID19_Spatial_Microsimulation_for_Germany(iol,pspace,iter,counties_index)
+USE list_variable
+USE MOD_GLOBAL_VAR
+USE support_fun
+IMPLICIT NONE
+TYPE ( pspaces )  :: pspace
+TYPE ( iols )  :: iol
+INTEGER :: i, j, index, temp_int, icounty, county, it_ss, iter, status
+CHARACTER :: mod1*(1), mod2*(1)
+INTEGER, DIMENSION(:) :: counties_index
+LOGICAL :: seed_in_inner_loop, seed_mpi_in_inner_loop
+INTEGER :: healthy, inf_noncon, inf_contag, ill_contag, ill_ICU, immune, dead, missing
+REAL, DIMENSION(16) :: sam_prop_ps = (/1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1/)
+CHARACTER(len=15) :: sim_pop
+INTEGER :: ini_infected
+CHARACTER(len=5) :: seed_infections
+INTEGER :: seed_before
+REAL :: R0_force
+INTEGER :: inf_dur, cont_dur, ill_dur, icu_dur
+REAL, DIMENSION(8) :: icu_per_day = (/0,0,0,0,0,0,0,8/)
+REAL :: less_contagious
+LOGICAL :: immune_stop
+INTEGER, DIMENSION(2,24) :: R0change
+CHARACTER(len=5), DIMENSION(24) :: R0county
+LOGICAL :: R0delay
+INTEGER :: R0delay_days
+CHARACTER(len=6) :: R0delay_type
+LOGICAL :: endogenous_lockdown
+REAL :: lockdown_connect
+INTEGER :: lockdown_threshold
+INTEGER :: lockdown_days
+CHARACTER(len=10) :: control_age_sex
+CHARACTER :: seed_before_char*(10), seed_temp*(10)
+CHARACTER, ALLOCATABLE :: seed_seq(:)*(10), seed_inf_cont_seq(:)*(10), seed_inf_ncont_seq(:)*(10)
+CHARACTER(len=10), DIMENSION(:), ALLOCATABLE :: seed_d_seq
+INTEGER :: days
+INTEGER :: n_direct, n_directv, n_directl, n_dist
+INTEGER :: size_lhc
+REAL, DIMENSION(:,:), ALLOCATABLE :: lhc
+CHARACTER(len=10), DIMENSION(:), ALLOCATABLE :: lhc_name
+REAL, ALLOCATABLE :: icu_risk(:), surv_ill(:), surv_icu(:)
+INTEGER, ALLOCATABLE :: temp1(:), temp(:), targert_icu_risk_index(:)
+CHARACTER(len=3), DIMENSION(:), ALLOCATABLE :: temp_char_mul
+CHARACTER :: temp_char_sig
+TYPE  :: icu_risk_lists
+CHARACTER(len=2), DIMENSION(:), ALLOCATABLE :: age
+CHARACTER(len=1), DIMENSION(:), ALLOCATABLE :: sex
+REAL, DIMENSION(:), ALLOCATABLE :: risk
+INTEGER, DIMENSION(:), ALLOCATABLE :: dur
+END TYPE icu_risk_lists
+TYPE ( icu_risk_lists )  :: icu_risk_list, surv_ill_list, surv_icu_list
+TYPE  :: sims
+INTEGER, DIMENSION(:), ALLOCATABLE :: dist_id
+CHARACTER, DIMENSION(:), ALLOCATABLE :: sex
+CHARACTER(len=2), DIMENSION(:), ALLOCATABLE :: age
+INTEGER, DIMENSION(:), ALLOCATABLE :: t1
+INTEGER, DIMENSION(:), ALLOCATABLE :: t2
+INTEGER, DIMENSION(:), ALLOCATABLE :: d
+END TYPE sims
+TYPE ( sims )  :: sim, tmp
+INTEGER, DIMENSION(:), ALLOCATABLE :: tmp_dnew
+INTEGER, ALLOCATABLE :: sim_counties(:), rownumbers(:)
+TYPE ( seeds )  :: seed_ill, seed_inf_cont, seed_inf_ncont, target_inf
+INTEGER, ALLOCATABLE :: seed_ill_dur(:), seed_inf_cont_dur(:), seed_inf_ncont_dur(:)
+INTEGER, ALLOCATABLE :: il_d(:), inf_c_d(:), inf_nc_d(:)
+INTEGER, ALLOCATABLE :: rownumbers_ill(:), rownumbers_cont(:), rownumbers_ncont(:), rownumbers_dea(:), rownumbers_left(:)
+INTEGER, DIMENSION(:), ALLOCATABLE :: gettime
+REAL, DIMENSION(:), ALLOCATABLE :: getchange
+INTEGER :: inf_ill, inf_cont, inf_ncont, inf_dth
+REAL :: R0_daily
+REAL, ALLOCATABLE :: R0matrix(:,:), connect(:,:)
+INTEGER, ALLOCATABLE :: inf_cases(:,:), icu_cases(:,:), healthy_cases(:,:), inf_noncon_cases(:,:), inf_contag_cases(:,:), &
+ill_contag_cases(:,:)
+INTEGER, ALLOCATABLE :: ill_ICU_cases(:,:), immune_cases(:,:), dead_cases(:,:), dead_cases_bICU(:,:), mod_inf_cases(:,:), &
+org_noncon_cases(:,:)
+INTEGER, ALLOCATABLE :: lockdowns(:), start_value_tot(:)
+INTEGER :: timestep
+INTEGER, ALLOCATABLE :: tmp_index(:), tmp_d_new(:), tmp_count(:)
+INTEGER, ALLOCATABLE :: susceptible(:), contagious_dist_id(:), contagious_index(:), denominator(:), revers_proj(:), final_count(:), &
+dist_id_temp(:), ill_index(:), ill_dist_id(:)
+REAL, DIMENSION(:), ALLOCATABLE :: contagious
+INTEGER :: at_risk
+INTEGER :: initial_sick
+REAL :: n_contagious, between_weight, within_weight
+REAL, DIMENSION(:), ALLOCATABLE :: exp_infect
+INTEGER, DIMENSION(:), ALLOCATABLE :: check_days
+LOGICAL :: flag_lockdown
+REAL, ALLOCATABLE :: risk(:), prob(:), runif(:), prop_target(:)
+CHARACTER :: target_date*(10), temp_date*(10)
+INTEGER, ALLOCATABLE :: sick(:), case_count(:), state_id(:), prop_inf_cases(:), prop_target_inf(:), mod_inf(:)
+CHARACTER, ALLOCATABLE :: age_sex(:)*(2), surv_ill_label(:)*(2), surv_icu_label(:)*(2)
+CHARACTER, ALLOCATABLE :: age_sex_dur(:)*(3), temp_character(:)*(3), icu_risk_label(:)*(3)
+REAL, ALLOCATABLE :: surv_ill_i(:), die(:), icu_risk_i(:), icu(:), surv_icu_i(:)
+INTEGER, ALLOCATABLE :: die_count(:), icu_count(:), die_icu_count(:)
+CHARACTER(len=2), DIMENSION(:), ALLOCATABLE :: ch_age
+CHARACTER(len=5), DIMENSION(:), ALLOCATABLE :: ch_sex
+INTEGER :: max_date, n_change
+CHARACTER(len=10) :: temp_mod
+END SUBROUTINE 
+
+END MODULE mod_kernel
+

@@ -1,0 +1,287 @@
+
+! =================================================================================== 
+! <<Automatically generated for Rose Fortran Separate Compilation, DO NOT MODIFY IT>> 
+! =================================================================================== 
+
+MODULE support_fun
+INTERFACE get_unique
+MODULE PROCEDURE get_unique
+END INTERFACE 
+INTERFACE sum_bygroup
+MODULE PROCEDURE sum_bygroup_mod
+MODULE PROCEDURE sum_bygroup_array
+END INTERFACE 
+INTERFACE get_index
+MODULE PROCEDURE get_index_single_char
+MODULE PROCEDURE get_index_single_integer
+MODULE PROCEDURE get_index_mul_char
+MODULE PROCEDURE get_index_mul_integer
+END INTERFACE 
+INTERFACE get_index_not
+MODULE PROCEDURE get_index_not_single_integer
+MODULE PROCEDURE get_index_not_mul_integer
+MODULE PROCEDURE get_index_not_single_real
+END INTERFACE 
+INTERFACE generate_seq
+MODULE PROCEDURE seq_date
+MODULE PROCEDURE seq_integer
+END INTERFACE 
+INTERFACE condition_and
+MODULE PROCEDURE condition_and_integer
+MODULE PROCEDURE condition_and_real
+END INTERFACE 
+CONTAINS
+ FUNCTION get_unique(array_in) result(array_out)
+USE qsort_c_module
+IMPLICIT NONE
+INTEGER :: size_in, j, index
+INTEGER, DIMENSION(:) :: array_in
+INTEGER, DIMENSION(size(array_in)) :: temp_in
+INTEGER, DIMENSION(:), ALLOCATABLE :: array_out
+END  FUNCTION get_unique
+
+ FUNCTION get_index_single_char(array_in,tar) result(array_index)
+IMPLICIT NONE
+INTEGER :: size_in, index, i
+CHARACTER(len=*), DIMENSION(:) :: array_in
+CHARACTER(len=*) :: tar
+INTEGER, DIMENSION(:), ALLOCATABLE :: array_index
+END  FUNCTION get_index_single_char
+
+ FUNCTION get_index_single_integer(array_in,tar) result(array_index)
+IMPLICIT NONE
+INTEGER :: size_in, index, i
+INTEGER, DIMENSION(:) :: array_in
+INTEGER :: tar
+INTEGER, DIMENSION(:), ALLOCATABLE :: array_index
+END  FUNCTION get_index_single_integer
+
+ FUNCTION get_index_mul_integer(array_in,array_tar) result(array_index)
+IMPLICIT NONE
+INTEGER :: size_in, index, i, j, size_tar
+INTEGER, DIMENSION(:) :: array_in
+INTEGER, DIMENSION(:) :: array_tar
+INTEGER, DIMENSION(:), ALLOCATABLE :: array_index
+INTEGER :: tar, temp_int
+END  FUNCTION 
+
+ FUNCTION get_index_mul_char(array_in,array_tar) result(array_index)
+INTEGER :: size_in, index, i, j, size_tar
+CHARACTER(len=*), DIMENSION(:) :: array_in
+CHARACTER(len=*), DIMENSION(:) :: array_tar
+INTEGER, DIMENSION(:), ALLOCATABLE :: array_index
+END  FUNCTION 
+
+ FUNCTION get_index_single_int_inv(array_in,tar) result(array_index)
+IMPLICIT NONE
+INTEGER :: size_in, index, i
+REAL, DIMENSION(:) :: array_in
+REAL :: tar
+INTEGER, DIMENSION(:), ALLOCATABLE :: array_index
+END  FUNCTION 
+
+INTEGER FUNCTION get_file_N(iFileUnit)
+IMPLICIT NONE
+INTEGER, INTENT(IN) :: iFileUnit
+CHARACTER(len=1) :: cDummy
+END  FUNCTION get_file_N
+
+REAL FUNCTION invert_char(Input_char)
+IMPLICIT NONE
+CHARACTER(len=30) :: Input_char
+CHARACTER(len=28) :: temp_char_in
+REAL :: temp_real
+INTEGER :: temp_int, i
+CHARACTER :: temp
+END  FUNCTION invert_char
+
+ FUNCTION smoothing_change(x,steps,types) result(output)
+IMPLICIT NONE
+REAL, DIMENSION(:) :: x
+REAL, DIMENSION(size(x)) :: output
+INTEGER :: steps
+CHARACTER(len=*) :: types
+REAL, DIMENSION(size(x) - 1) :: changex
+INTEGER, DIMENSION(:), ALLOCATABLE :: changex_index
+REAL :: logval(steps), linval(steps), linval_temp(steps + 2), start, final, res_temp(steps)
+REAL :: inc_log, inc_lin
+INTEGER :: size_xnchange, i, size_x
+END  FUNCTION 
+
+ FUNCTION seq_date(start_date,end_date) result(output)
+IMPLICIT NONE
+CHARACTER :: start_date*(10), end_date*(10)
+CHARACTER(len=10), DIMENSION(:), ALLOCATABLE :: output
+INTEGER :: time_start, time_end, size_out, i
+END  FUNCTION 
+
+ FUNCTION seq_integer(start_n,end_n,advan) result(output)
+IMPLICIT NONE
+INTEGER :: start_n, end_n, n, i, advan
+INTEGER, DIMENSION(:), ALLOCATABLE :: output
+END  FUNCTION 
+
+ FUNCTION get_start_date(date_array) result(res)
+IMPLICIT NONE
+INTEGER :: i, flag, minimal_time, time_loop
+CHARACTER(len=*), DIMENSION(:) :: date_array
+CHARACTER(len=10) :: res
+END  FUNCTION 
+
+ FUNCTION rep(tar,times) result(output)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: tar
+INTEGER, DIMENSION(:) :: times
+INTEGER, DIMENSION(:), ALLOCATABLE :: output
+INTEGER :: i, size_out, cur_pos
+END  FUNCTION 
+
+ FUNCTION sample(input_array,sample_N) result(sample_seq)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: input_array
+INTEGER, DIMENSION(size(input_array)) :: temp_input
+INTEGER :: sample_N
+INTEGER, DIMENSION(:), ALLOCATABLE :: sample_seq
+INTEGER :: n, temp, pos, i
+REAL :: ran
+END  FUNCTION 
+
+ FUNCTION sum_bygroup_mod(t1,dist_id,counties,mod_type) result(output)
+IMPLICIT NONE
+INTEGER :: t1(:), dist_id(:), counties(:)
+INTEGER, ALLOCATABLE :: output(:), temp_index(:), temp_op(:)
+CHARACTER(len=*) :: mod_type
+INTEGER :: i
+END  FUNCTION 
+
+ FUNCTION get_index_not_single_integer(array_in,tar) result(output)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: array_in
+INTEGER :: tar
+INTEGER, ALLOCATABLE :: temp_index(:), output(:)
+END  FUNCTION 
+
+ FUNCTION get_index_not_mul_integer(array_in,tar) result(output)
+IMPLICIT NONE
+INTEGER :: array_in(:), tar(:)
+INTEGER, ALLOCATABLE :: temp_index(:), output(:)
+INTEGER, DIMENSION(size(array_in)) :: seq_index
+INTEGER :: i
+END  FUNCTION 
+
+ FUNCTION get_index_not_single_real(array_in,tar) result(output)
+REAL, DIMENSION(:) :: array_in
+REAL, DIMENSION(size(array_in)) :: array_temp
+REAL :: tar
+INTEGER, DIMENSION(:), ALLOCATABLE :: temp_index
+INTEGER :: i, count_i
+INTEGER, DIMENSION(:), ALLOCATABLE :: output
+END  FUNCTION 
+
+ FUNCTION array_minus(array_in,minus) result(output)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: array_in
+INTEGER, DIMENSION(size(array_in)) :: array_temp
+INTEGER, ALLOCATABLE :: minus(:), output(:)
+INTEGER :: i
+END  FUNCTION 
+
+ FUNCTION sum_bygroup_array(dist_id) result(output)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: dist_id
+INTEGER, ALLOCATABLE :: output(:), temp(:), counties(:)
+INTEGER :: i
+END  FUNCTION 
+
+SUBROUTINE sum_bygroup_distID(cases,output,dist_id)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: cases
+INTEGER, ALLOCATABLE :: dist_id(:), output(:), temp(:)
+INTEGER :: i
+END SUBROUTINE 
+
+SUBROUTINE shift_cases(sick_new,mod_inf,dist_id,counties)
+IMPLICIT NONE
+INTEGER :: sick_new(:), mod_inf(:), counties(:), dist_id(:)
+INTEGER, ALLOCATABLE :: to_modifiy_index(:), seq_index(:), temp_index(:)
+INTEGER :: i, county
+END SUBROUTINE 
+
+ FUNCTION find_and(array1,array2) result(output)
+USE qsort_c_module
+IMPLICIT NONE
+INTEGER :: array1(:), array2(:)
+INTEGER :: idx1(size(array1)), temp1(size(array1))
+INTEGER :: idx2(size(array2)), temp2(size(array2))
+INTEGER, DIMENSION(:), ALLOCATABLE :: output
+INTEGER :: i, j, total, size1, size2
+END  FUNCTION 
+
+ FUNCTION condition_and_integer(array1,cond1,mod1,array2,cond2,mod2) result(output)
+IMPLICIT NONE
+INTEGER :: array1(:), array2(:)
+INTEGER :: cond1, cond2
+CHARACTER :: mod1*(1), mod2*(1)
+INTEGER, ALLOCATABLE :: output(:), temp1(:), temp2(:)
+END  FUNCTION 
+
+ FUNCTION condition_and_real(array1,cond1,mod1,array2,cond2,mod2) result(output)
+IMPLICIT NONE
+INTEGER :: array1(:), array2(:)
+INTEGER :: cond1
+REAL :: cond2
+CHARACTER :: mod1*(*), mod2*(*)
+INTEGER, ALLOCATABLE :: output(:), temp1(:), temp2(:)
+END  FUNCTION 
+
+ FUNCTION find_lessthan(array_in,cond) result(output)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: array_in
+INTEGER :: cond, i, total
+INTEGER, DIMENSION(:), ALLOCATABLE :: output
+END  FUNCTION 
+
+ FUNCTION find_greatthan(array_in,cond) result(output)
+IMPLICIT NONE
+INTEGER, DIMENSION(:) :: array_in
+INTEGER :: cond, i, total
+INTEGER, DIMENSION(:), ALLOCATABLE :: output
+END  FUNCTION 
+
+ FUNCTION find_max_date(date_in) result(maxdate)
+CHARACTER(len=*), DIMENSION(:) :: date_in
+INTEGER, DIMENSION(size(date_in)) :: time_in
+INTEGER :: maxdate
+INTEGER :: i
+END  FUNCTION 
+
+ FUNCTION Date2Unixtime(Date) result(Unixtime)
+IMPLICIT NONE
+INTEGER :: Unixtime
+CHARACTER(len=*), INTENT(IN) :: Date
+CHARACTER(len=4) :: Cyear
+CHARACTER :: Cmonth*(2), Cday*(2)
+INTEGER :: year, month, day
+INTEGER :: iy, im, a
+REAL :: JD
+END  FUNCTION 
+
+ FUNCTION Unixtime2Date(Unixtime) result(Date)
+IMPLICIT NONE
+INTEGER, INTENT(IN) :: Unixtime
+CHARACTER(len=10) :: Date
+CHARACTER(len=4) :: Cyear
+CHARACTER :: Cmonth*(2), Cday*(2)
+INTEGER :: year, month, day, udays, mday
+REAL :: rday
+END  FUNCTION 
+
+ FUNCTION add_date(Date,days) result(res)
+IMPLICIT NONE
+CHARACTER(len=10) :: Date
+CHARACTER(len=10) :: res
+INTEGER :: days, time
+END  FUNCTION 
+
+END MODULE support_fun
+
